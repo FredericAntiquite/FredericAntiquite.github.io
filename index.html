@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Antiquités Frédéric — Père & Fils. Antiquités, brocante, achat et vente de meubles et objets anciens.">
+<title>Antiquités Frédéric — Père & Fils</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+:root{--ink:#2b1b12;--brown:#4b2c1c;--gold:#b48735;--cream:#f5eddb;--paper:#fbf6e9;--line:#d9c8a4}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--paper);font-family:"Libre Baskerville",Georgia,serif;line-height:1.7}
+h1,h2,h3,.brand{font-family:"Cormorant Garamond",Georgia,serif} a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:10;background:#24160f;color:#f8efd9;display:flex;justify-content:center;gap:28px;padding:15px;box-shadow:0 2px 12px #0004}
+.nav a{font-size:.9rem}.nav a:hover{color:#d6ae5c}
+.hero{min-height:78vh;display:grid;place-items:center;text-align:center;color:#fff;background:linear-gradient(#1b100999,#1b100999),url("https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2000&q=85") center/cover}
+.hero-inner{max-width:850px;padding:70px 22px}.kicker{letter-spacing:4px;text-transform:uppercase;font-size:.8rem}.hero h1{font-size:clamp(3.3rem,8vw,7rem);line-height:.85;margin:20px 0 8px}.hero h1 span{font-size:.5em;letter-spacing:5px;display:block;margin-top:18px}.orn{color:#d8b05b;font-size:1.7rem}.hero p{font-size:1.05rem;max-width:650px;margin:20px auto 30px}.btn{display:inline-block;background:#c89b49;color:#24160f;padding:13px 25px;margin:5px;font-weight:bold}.btn.alt{background:transparent;color:#fff;border:1px solid #d9bb79}
+section{padding:80px 7%}.intro{text-align:center;background:var(--cream)}.intro-grid{max-width:1050px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1px}.value{padding:25px;border-right:1px solid var(--line)}.value:last-child{border:0}.icon{font-size:2rem;color:var(--gold)}
+.title{text-align:center;max-width:700px;margin:0 auto 45px}.title h2{font-size:3rem;line-height:1;margin:0 0 10px}.title p{color:#604a39}
+.specialties{display:grid;grid-template-columns:1.1fr 2fr;gap:45px;max-width:1200px;margin:auto;align-items:center}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:#2d1b12;color:#fff;min-height:260px;padding:25px;display:flex;flex-direction:column;justify-content:end;background-size:cover;background-position:center;position:relative;overflow:hidden}.card:before{content:"";position:absolute;inset:0;background:linear-gradient(transparent,#1b100dd9)}.card>*{position:relative}.card h3{font-size:1.8rem;margin:0}.card p{font-size:.82rem;margin:5px 0 0}
+.story{background:var(--cream);display:grid;grid-template-columns:1fr 1fr;padding:0}.story-img{min-height:500px;background:linear-gradient(#0002,#0002),url("https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=85") center/cover}.story-text{padding:80px 9%;display:flex;flex-direction:column;justify-content:center}.story-text h2{font-size:3.5rem;line-height:1;margin:0}.quote{font-family:"Cormorant Garamond";font-size:1.8rem;font-style:italic}
+.cta{color:#fff;text-align:center;background:linear-gradient(#1b100dbb,#1b100dbb),url("https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1800&q=85") center/cover}
+.cta h2{font-size:3.5rem;margin:0}.contact{background:#24160f;color:#f7ecd4;display:grid;grid-template-columns:1fr 1fr;gap:50px}.contact h2{font-size:2.8rem;margin-top:0}.contact a{color:#d9b56c}
+footer{background:#170e09;color:#bfae93;text-align:center;padding:25px;font-size:.8rem}
+@media(max-width:800px){.nav{gap:12px;overflow:auto;justify-content:flex-start}.nav a{white-space:nowrap}.intro-grid,.specialties,.story,.contact{grid-template-columns:1fr}.value{border-right:0;border-bottom:1px solid var(--line)}.cards{grid-template-columns:1fr}.story-img{min-height:330px}.story-text{padding:55px 8%}section{padding:60px 6%}}
+</style>
+</head>
+<body>
+<nav class="nav">
+<a href="#accueil">Accueil</a><a href="#objets">Nos objets</a><a href="#achat">Achat</a><a href="#apropos">À propos</a><a href="#contact">Contact</a>
+</nav>
+
+<header id="accueil" class="hero">
+<div class="hero-inner">
+<div class="kicker">Antiquités • Brocante • Achat & Vente</div>
+<div class="orn">✦</div>
+<h1>Antiquités Frédéric <span>Père & Fils</span></h1>
+<p>L’art des objets anciens, transmis avec passion.<br>Des pièces choisies pour leur caractère, leur authenticité et leur histoire.</p>
+<a class="btn" href="#objets">Découvrir nos objets</a>
+<a class="btn alt" href="#contact">Nous contacter</a>
+</div>
+</header>
+
+<section class="intro">
+<div class="intro-grid">
+<div class="value"><div class="icon">⌛</div><h3>Authenticité</h3><p>Des pièces sélectionnées pour leur caractère et leur histoire.</p></div>
+<div class="value"><div class="icon">♢</div><h3>Conseil</h3><p>Un accompagnement personnalisé pour vos choix et vos projets.</p></div>
+<div class="value"><div class="icon">✦</div><h3>Passion</h3><p>Une vraie passion pour les objets anciens qui nous anime.</p></div>
+<div class="value"><div class="icon">♜</div><h3>Famille</h3><p>Une tradition familiale qui se transmet de père en fils.</p></div>
+</div>
+</section>
+
+<section id="objets">
+<div class="title"><h2>Nos spécialités</h2><p>Une sélection d’objets anciens et de pièces de caractère, pour tous les styles et toutes les époques.</p></div>
+<div class="specialties">
+<div><h2 style="font-family:'Cormorant Garamond';font-size:3rem;line-height:1">Des objets qui ont une histoire</h2><p>Meubles anciens, objets décoratifs, tableaux et curiosités : chaque pièce est choisie avec soin.</p><a class="btn" href="#contact">Voir nos disponibilités</a></div>
+<div class="cards">
+<article class="card" style="background-image:url('https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=900&q=80')"><h3>Meubles anciens</h3><p>Tables, commodes, armoires, sièges et mobilier de caractère.</p></article>
+<article class="card" style="background-image:url('https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=900&q=80')"><h3>Objets & décoration</h3><p>Objets anciens, pièces décoratives et curiosités.</p></article>
+<article class="card" style="background-image:url('https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=900&q=80')"><h3>Tableaux & œuvres</h3><p>Tableaux et œuvres sélectionnés pour leur charme.</p></article>
+<article class="card" style="background-image:url('https://images.unsplash.com/photo-1582561833407-b95380302e6a?auto=format&fit=crop&w=900&q=80')"><h3>Brocante</h3><p>Une sélection renouvelée de pièces anciennes et insolites.</p></article>
+</div>
+</div>
+</section>
+
+<section id="apropos" class="story">
+<div class="story-img"></div>
+<div class="story-text"><div class="quote">« Une passion qui se transmet. »</div><h2>Père & Fils</h2><p>L’amour des antiquités est avant tout une histoire de famille. Frédéric, père et fils, perpétue une passion pour les objets anciens et le plaisir de leur donner une seconde vie.</p><p>Notre approche repose sur la confiance, le conseil et la recherche de pièces authentiques.</p></div>
+</section>
+
+<section id="achat" class="cta">
+<div class="title"><h2>Vous souhaitez vendre des antiquités ?</h2><p style="color:#fff">Nous étudions vos meubles et objets anciens avec attention.</p></div>
+<a class="btn" href="#contact">Parler de votre objet</a>
+</section>
+
+<section id="contact" class="contact">
+<div><h2>Antiquités Frédéric</h2><p>Père & Fils<br>Antiquités • Brocante • Achat & Vente</p><p>📞 <a href="tel:+33000000000">Votre téléphone</a><br>✉️ <a href="mailto:votre@email.fr">Votre e-mail</a></p></div>
+<div><h2>Contact</h2><p>Remplacez ici les coordonnées, horaires et adresse de votre activité.</p><p><strong>Horaires</strong><br>Du mardi au samedi<br>10h–12h30 / 14h–18h30</p></div>
+</section>
+
+<footer>© 2026 Antiquités Frédéric — Père & Fils · Mentions légales · Politique de confidentialité</footer>
+</body>
+</html>
